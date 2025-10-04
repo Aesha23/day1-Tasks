@@ -382,7 +382,6 @@ flex-wrap: wrap;
   }
 }
 
-/* 📱 For mobile screens */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -459,7 +458,7 @@ flex-wrap: wrap;
     }
 }
 
-/* Mobile breakpoint */
+
 @media (max-width: 768px) {
     .navbar {
         padding: 15px;
@@ -520,7 +519,6 @@ flex-wrap: wrap;
     }
 }
 
-/* Small mobile breakpoint */
 @media (max-width: 480px) {
     .cont h1 {
         font-size: 1.75rem;
