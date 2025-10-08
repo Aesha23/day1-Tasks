@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navbar Example</title>
+  <title>Figma Design</title>
   <link rel="stylesheet" href="Style.css">
   
 </head>
@@ -20,8 +20,10 @@
         <option>Spanish</option>
       </select>
       <button>Sign Up</button>
-    </div>
-  </div>
+  </div>      
+        <div class="menu-toggle" id="menu-toggle"> ☰</div>
+</div>
+
   <div class="content">
     <div class="cont">
 
@@ -83,17 +85,20 @@
   <div class="box">
     <h2>Power Collaboration</h2>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+  
     <div class="bulid">
-      <img src="Frame 14.png" alt="">
-      <img src="Frame 16.png" alt=""></div>
+      <div class="space">
+      <img src="Frame 20.png" alt="">
+    </div>
+  </div>
   </div>
   <div class="tex">
     <div style="display: flex; margin-bottom: 30px;">
-      
+
       <h3>Enterprise</h3>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
       <img src="arrow.png" alt="">
-    </div>
+      </div>
     <div style="display: flex; margin-bottom: 30px;">
       <h3>Everything you need</h3>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -105,7 +110,7 @@
       <img src="arrow.png" alt="">
     </div>
       </div>
-    </div>
+    
   </div>
     <div class="team1">
     <img src="Frame 28.png" alt="">
@@ -121,6 +126,16 @@
     <div class="footer-right">
       <img src="Frame 29.png" alt="">
     </div>
+    </div>
   </div>
+  <script>
+  const toggle = document.getElementById('menu-toggle');
+  const navbar = document.querySelector('.navbar');
+
+  toggle.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
+
 </body>
 </html>
