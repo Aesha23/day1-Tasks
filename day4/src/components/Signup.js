@@ -40,7 +40,13 @@ export default function Signup() {
 
 
     const users = JSON.parse(localStorage.getItem("users")) || [];
-    if (users.find(u => u.email === form.email)) return alert("User ALreday Exists");
+    if (users.find(u => u.email === form.email)) {
+      return alert("User ALreday Exists");
+    }  else {
+      const temp = FormData;
+      delete temp.password;
+    }
+    
 
     users.push(form);
     localStorage.setItem("users", JSON.stringify(users));
