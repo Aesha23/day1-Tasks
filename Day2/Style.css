@@ -628,7 +628,7 @@ gap: 78px;
     height: auto; 
   }
 }
-/* HAMBURGER DEFAULT HIDDEN */
+
 .menu-toggle {
   display: none;
   font-size: 30px;
@@ -636,29 +636,29 @@ gap: 78px;
   cursor: pointer;
 }
 
-/* ✅ RESPONSIVE NAVBAR FIX */
+
 @media (max-width: 768px) {
   .navbar {
     position: relative;
     flex-wrap: wrap;
   }
 
-  /* Show hamburger only on mobile */
+
   .menu-toggle {
     display: block;
     position: absolute;
-    right: 20px;    /* Hamburger on right */
+    right: 20px;    
     top: 20px;
     z-index: 10;
   }
 
-  /* Hide left and right menus by default on mobile */
+
   .navbar-left,
   .navbar-right {
     display: none;
   }
 
-  /* Show them when active (when hamburger clicked) */
+  
   .navbar.active .navbar-left,
   .navbar.active .navbar-right {
     display: flex;
@@ -670,7 +670,6 @@ gap: 78px;
     gap: 10px;
   }
 
-  /* Make sure logo stays on left */
   .navbar img {
     margin-right: auto;
   }
