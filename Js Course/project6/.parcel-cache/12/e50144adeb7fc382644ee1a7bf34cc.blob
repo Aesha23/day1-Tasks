@@ -1,0 +1,18 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.RecipeView = void 0;
+class RecipeView {
+  #parentElement = document.querySelector('.recipe');
+  #data;
+  render(data) {
+    this.#data = data;
+  }
+  #generateMarkup() {
+    return;
+  }
+}
+exports.RecipeView = RecipeView;
+var _default = exports.default = new RecipeView();
