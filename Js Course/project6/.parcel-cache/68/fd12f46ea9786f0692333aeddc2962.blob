@@ -1,1 +1,0 @@
-const API_URL = 'https://forkify-api.herokuapp.com/api/v2/recipes/${id}?key=%3C4aa9b6f5-9d10-4a9f-8700-8435c25c59e9%3E';
