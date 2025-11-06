@@ -1,3 +1,6 @@
 [submodule "Js Course"]
 	path = Js Course
 	url = https://github.com/Aesha23/JS-Course
+[submodule "React Course"]
+	path = React Course
+	url = https://github.com/Aesha23/React-Course.git
